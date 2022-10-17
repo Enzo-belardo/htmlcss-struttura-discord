@@ -38,7 +38,7 @@ ul>li{
     justify-content: flex-end;
 }
 .container-one{
-    height:600px ;
+    height:400px ;
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -67,28 +67,21 @@ ul>li{
 }
 
 
-.sectionone-main{
+.articolo{
    width: 50%;
-   height: 400px;
+   height: 300px;
    display: flex;
    background-color: pink;
 }
-.sectiontwo-main{
-    width: 70%;
-    height: 400px;
+.part-one{
+    width: 25%;
+    height: 350px;
     background-color: pink;
     display: flex;
  }
- .sectionthree-main{
-    width: 70%;
-    height: 400px;
+ .part-two{
+    width: 40%;
+    height: 350px;
     display: flex;
-    background-color: pink;
+    background-color: blue;
  }
- .sectionfour-main{
-    width: 70%;
-    height: 400px;
-    display: flex;
-    background-color: pink;
- }
- 
