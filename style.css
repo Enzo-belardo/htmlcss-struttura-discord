@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 header{
-    height: 5rem;
     background-color: aqua;
     display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
 }
 
 .navbar{
@@ -15,6 +16,7 @@ header{
     display: flex;
     background-color: orange;
     padding: 0 .5rem;
+    
 }
 ul{
     list-style: none;
@@ -26,6 +28,7 @@ ul>li{
 .logo{
     display: flex;
     width: 25%;
+    align-items: center;
 }
 .list{
     display: flex;
@@ -36,42 +39,41 @@ ul>li{
     display: flex;
     width: 25%;
     justify-content: flex-end;
+    align-items: center;
+}
+.main-head{
+    height:500px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-head{
+    width: 50%;
+    height: 350px;
+    background-color: pink;
 }
 .container-one{
-    height:400px ;
-    background-color: blue;
+    height:500px ;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container-two{
     height:500px ;
-    background-color: white;
+    background-color: lightgray;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 }
 .container-three{
-    height:500px ;
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container-four{
     height:500px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-.articolo{
-   width: 50%;
-   height: 300px;
-   display: flex;
-   background-color: pink;
 }
 .part-one{
     width: 25%;
@@ -80,8 +82,44 @@ ul>li{
     display: flex;
  }
  .part-two{
-    width: 40%;
+    width: 50%;
     height: 350px;
     display: flex;
     background-color: blue;
+ }
+ .last-article{
+    height:500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .article{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    background-color: green;
+ }
+
+ footer{
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+ .container-footer{
+    width: 75%;
+    display: flex;
+
+ }
+.link-social{
+    width: 30%;
+    background-color: orange;
+    display: flex;
+}
+
+ .link{
+    width: calc(100%/4);
+    display: flex;
+    background-color: aqua;
  }
