@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 5rem;
+    background-color: aqua;
+    display: flex;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: orange;
+    padding: 0 .5rem;
+}
+ul{
+    list-style: none;
+}
+ul>li{
+    display: inline-block;
+    margin: .5rem;
+}
+.logo{
+    display: flex;
+    width: 25%;
+}
+.list{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.login{
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+}
+.container-one{
+    height:600px ;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-two{
+    height:500px ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-three{
+    height:500px ;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-four{
+    height:500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sectionone-main{
+   width: 50%;
+   height: 400px;
+   display: flex;
+   background-color: pink;
+}
+.sectiontwo-main{
+    width: 70%;
+    height: 400px;
+    background-color: pink;
+    display: flex;
+ }
+ .sectionthree-main{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    background-color: pink;
+ }
+ .sectionfour-main{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    background-color: pink;
+ }
+ 
